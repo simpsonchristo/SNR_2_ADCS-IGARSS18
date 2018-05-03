@@ -24,6 +24,12 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ABM_Integrate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewtonRaphson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -32,5 +38,14 @@
     <ClCompile Include="SNR_2_ADCS-IGARSS18.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ABM_Integrate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewtonRaphson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
